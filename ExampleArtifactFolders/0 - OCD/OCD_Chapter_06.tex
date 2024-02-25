@@ -10,18 +10,37 @@
 \label{chap:Operational scenarios}
 \input{DIDINFO_Snippets/OCD/OCD_6.0_DIDINFO.tex}
 
-This chapter is \TBD.
+This chapter describes different scenarios in which the \ThisSystem is to be used.
 
 
-\section{Use Case 1}
+\section{Use Case 1: Low Water Sensor}
 \label{loc:UseCase1}
 \input{DIDINFO_Snippets/OCD/OCD_6.1_DIDINFO.tex}
 
-This section is \TBD.
+One of the most important uses of this system is to monitor water level. When the water level is low the Rancillio Silvia V2
+could damage itself. Providing the user with two states Full and empty. When the system has water it is considered in the full
+state. The system should operate as normal. When the water level is low the system must report this to the user using the Built
+in screen. The system should also lock the user out of other functionality.
 
-
-\section{Use Case 2}
+\section{Use Case 2: Pulling an Espresso Shot}
 \label{loc:UseCase2}
 %\input{DIDINFO_Snippets/OCD/OCD_6.1_DIDINFO.tex}
+
+When the user wants to pull a shot the user should prepare their espresso as they usually do. Measuring the weight 
+of ground coffee in their portafilter. Once this measurement is received and the shot is ready to pull. The user should place
+their cup in the brew area. Then the user should input their coffee weight into the \ThisSystem using the user interface.
+The pumps will engage and the espresso will be brewed. The system will monitor the weight of liquid that falls into the cup,
+when the desired brew weight is reached the pumps will disengage and system will summarize the shot to the user and return
+to a ready state waiting for the next shot.
+
+\section{Use Case 3: Reviewing a Shot}
+\label{loc:UseCase3}
+
+The system will allow the user to review previous reviewed shots. This information will include time and weight and well
+as some metrics around how the shot was pulled. This will be done by \TBD
+
+
+\section{Use Case 4}
+\label{loc:UseCase3}
 
 This section is \TBD.

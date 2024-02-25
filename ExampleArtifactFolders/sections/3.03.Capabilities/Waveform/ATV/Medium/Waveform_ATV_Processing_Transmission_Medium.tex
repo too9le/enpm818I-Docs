@@ -1,0 +1,74 @@
+%%% \ONERQMTV[9] is macro for consistently formatted requirements
+\ONERQMTVKPP
+% #1 is requirement Number
+{\RqtNumberBase.1}
+% #2 is Title
+{BDP-Medium \ATV Waveform Transmission Input Processing}
+% #3 is requirement label (expected to be of form rqt:XXX)
+{rqt:Waveform_ATV_Medium_Transmission_Input}
+% #4 is Text of the specification
+{The BDP-Medium system shall decode and transform the \MPEGTS data stream into three separate (Video Data Streams) digital representations (discrete-time analytic signals) of the analog audio, analog video luma, and analog video chroma signals; all controlled by the parameters of the Waveform Control Inputs.}
+% #5 is Status (S in {(T), (O), (I), (D)} listed by phase as \item [] S)
+{
+	\item [Phase 1]  Threshold
+}
+% #6 is Acceptance
+{This requirement shall be verified by demonstration.}
+% #7 is Traceability
+{
+	\item [5.1.1] Section in CDD for BDP FoS~\cite{ref__BDP_FOS_CDD}.
+	\item [5.1.2] Section in CDD for BDP FoS~\cite{ref__BDP_FOS_CDD}.
+	\item [5.5.1] Section in CDD for BDP FoS~\cite{ref__BDP_FOS_CDD}.
+	\item [5.5.2] Section in CDD for BDP FoS~\cite{ref__BDP_FOS_CDD}.
+	\item [5.5.3] Section in CDD for BDP FoS~\cite{ref__BDP_FOS_CDD}.
+	\item [5.5.4] Section in CDD for BDP FoS~\cite{ref__BDP_FOS_CDD}.
+}
+% #8 is Notes; listed as enumeration \item ...
+{
+	\item This processing is enabled when the input selects the sub-mode, Analog Television (\ATV) in this case.
+	\item The inputs will supply the \ATV Video Standard, \RF carrier frequency, and modulation bandwidth information needed to produce the modulated \RF waveform.
+	\item The audio stream will be converted into digital samples (discrete-time analytic signal) that represent the original monaural analog audio signal.
+	\item The \MPEG video stream will be converted to separate luma and chroma interlaced video signals made up of digital sample streams that represent (discrete-time analytic signals) the two analog video signals.
+	\item The luma/chroma signals are YIQ format for \NTSC, YU’V for \PAL, and YDbDr for both \SECAM and \PAL-N.
+}
+% #9 is version of spec for changebars
+{P2}
+%%%%% end \ONERQMTV[9] macro
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%% \ONERQMTV[9] is macro for consistently formatted requirements
+\ONERQMTVKPP
+% #1 is requirement Number
+{\RqtNumberBase.2}
+% #2 is Title
+{BDP-Medium \ATV Waveform Transmission Output Processing}
+% #3 is requirement label (expected to be of form rqt:XXX)
+{rqt:Waveform_ATV_Medium_Transmission_Output}
+% #4 is Text of the specification
+{The BDP-Medium system shall use the digital audio, luma, and chroma signal streams along with the control inputs to modulate the video luma signal on the \RF carrier, the chroma signal on the color subcarrier, and the audio on the audio subcarrier that are combined into the video signal that is then converted to an analog signal creating the \RF Broadcast Pre-Amp Data Output.}
+% #5 is Status (S in {(T), (O), (I), (D)} listed by phase as \item [] S)
+{
+	\item [Phase 1]  Threshold
+}
+% #6 is Acceptance
+{This requirement shall be verified by demonstration.}
+% #7 is Traceability
+{
+	\item [5.1.1] Section in CDD for BDP FoS~\cite{ref__BDP_FOS_CDD}.
+	\item [5.1.2] Section in CDD for BDP FoS~\cite{ref__BDP_FOS_CDD}.
+	\item [5.5.1] Section in CDD for BDP FoS~\cite{ref__BDP_FOS_CDD}.
+	\item [5.5.2] Section in CDD for BDP FoS~\cite{ref__BDP_FOS_CDD}.
+	\item [5.5.3] Section in CDD for BDP FoS~\cite{ref__BDP_FOS_CDD}.
+	\item [5.5.4] Section in CDD for BDP FoS~\cite{ref__BDP_FOS_CDD}.
+}
+% #8 is Notes; listed as enumeration \item ...
+{
+	\item The \RF Broadcast Pre-Amp Data Output signal will have an unmodulated carrier output power level of −15 \dBm.
+	\item The average modulated \RF output power level will be estimated for use internally during the \ATV Waveform \VSWR Processing.
+}
+% #9 is version of spec for changebars
+{P2}
+%%%%% end \ONERQMTV[9] macro
+

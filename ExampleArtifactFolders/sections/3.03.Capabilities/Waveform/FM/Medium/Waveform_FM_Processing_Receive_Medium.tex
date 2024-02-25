@@ -1,0 +1,66 @@
+%%% \ONERQMTV[9] is macro for consistently formatted requirements
+\ONERQMTVKPP
+% #1 is requirement Number
+{\RqtNumberBase.1}
+% #2 is Title
+{BDP-Medium \FM Waveform Receive Input Processing}
+% #3 is requirement label (expected to be of form rqt:XXX)
+{rqt:Waveform_FM_Medium_Receive_Input}
+% #4 is Text of the specification
+{The BDP-Medium system shall frequency demodulate a designated bandwidth and filter the \FM Rebroadcast Received \RF Data signal, then transform it into a discrete-time digital stream; all controlled by the Waveform Control Inputs.}
+% #5 is Status (S in {(T), (O), (I), (D)} listed by phase as \item [] S)
+{
+	\item [Phase 1]  Threshold
+}
+% #6 is Acceptance
+{This requirement shall be verified by demonstration.}
+% #7 is Traceability
+{
+	\item [5.4] Table in CDD for BDP FoS~\cite{ref__BDP_FOS_CDD}.
+	\item [5.5.5] Section in CDD for BDP FoS~\cite{ref__BDP_FOS_CDD}.
+	\item [5.5.12] Section in CDD for BDP FoS~\cite{ref__BDP_FOS_CDD}.
+}
+% #8 is Notes; listed as enumeration \item ...
+{
+	\item This processing is enabled when the input selects the sub-mode, \FM Rebroadcast in this case.
+	\item The Control Inputs supply the \RF carrier frequency, frequency deviation (bandwidth) needed to demodulate and filter the received \FM signal.
+	\item The filtering is required to remove any received adjacent channels from the designated bandwidth.
+}
+% #9 is version of spec for changebars
+{P2}
+%%%%% end \ONERQMTV[9] macro
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%% \ONERQMTV[9] is macro for consistently formatted requirements
+\ONERQMTVKPP
+% #1 is requirement Number
+{\RqtNumberBase.2}
+% #2 is Title
+{BDP-Medium \FM Waveform Receive Output Processing}
+% #3 is requirement label (expected to be of form rqt:XXX)
+{rqt:Waveform_FM_Medium_Receive_Output}
+% #4 is Text of the specification
+{The BDP-Medium system shall compress, format, and internally store in the \ThisSys the \FM Rebroadcast discrete-time digital \FM data stream.}
+% #5 is Status (S in {(T), (O), (I), (D)} listed by phase as \item [] S)
+{
+	\item [Phase 1]  Threshold
+}
+% #6 is Acceptance
+{This requirement shall be verified by demonstration.}
+% #7 is Traceability
+{
+	\item [5.4] Table in CDD for BDP FoS~\cite{ref__BDP_FOS_CDD}.
+	\item [5.5.5] Section in CDD for BDP FoS~\cite{ref__BDP_FOS_CDD}.
+	\item [5.5.12] Section in CDD for BDP FoS~\cite{ref__BDP_FOS_CDD}.
+}
+% #8 is Notes; listed as enumeration \item ...
+{
+	\item The audio data will be compressed using a lossless format to maintain the entire bandwidth ensuring any subcarrier information present in the original received \FM signal is preserved.
+}
+% #9 is version of spec for changebars
+{P2}
+%%%%% end \ONERQMTV[9] macro
+
