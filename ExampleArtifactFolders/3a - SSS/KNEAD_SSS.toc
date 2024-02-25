@@ -1,0 +1,244 @@
+\contentsline {chapterx}{DOCUMENT CHANGE HISTORY}{i}{chapter*.2}%
+\contentsline {chapterx}{TABLE OF CONTENTS}{ii}{chapter*.4}%
+\contentsline {chapterx}{LIST OF TABLES}{iii}{chapter*.5}%
+\contentsline {chapterx}{LIST OF FIGURES}{iv}{chapter*.6}%
+{\vskip 1.0ex plus\p@ {\bfseries \noindent CHAPTER\hfill }}
+ 
+\contentsline {chapter}{\numberline {1}Scope}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Identification}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}System Overview}{1}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Document Overview}{3}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Document Sections}{3}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}Specification Formatting}{5}{subsection.1.3.2}%
+\contentsline {subsection}{\numberline {1.3.3}How To Read Specifications}{7}{subsection.1.3.3}%
+\contentsline {subsection}{\numberline {1.3.4}Specification Traceability}{10}{subsection.1.3.4}%
+\contentsline {subsection}{\numberline {1.3.5}Document Production}{12}{subsection.1.3.5}%
+\contentsline {chapter}{\numberline {2}References}{13}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Acronyms and Abbreviations}{13}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Glossary and Definitions}{13}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Referenced Documents}{14}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}External Documents}{14}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Project Specific Documents}{14}{subsection.2.3.2}%
+\contentsline {chapter}{\numberline {3}Requirements}{15}{chapter.3}%
+\contentsline {section}{\numberline {3.1}States and Modes}{16}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}BDP-Light}{16}{subsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.1.1}States}{17}{subsubsection.3.1.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.1.2}Modes}{17}{subsubsection.3.1.1.2}%
+\contentsline {paragraph}{\numberline {3.1.1.2.1}Radio Modes}{17}{paragraph.3.1.1.2.1}%
+\contentsline {paragraph}{\numberline {3.1.1.2.2}Cellular Modes}{18}{paragraph.3.1.1.2.2}%
+\contentsline {subsubsection}{\numberline {3.1.1.3}Sub-Modes}{18}{subsubsection.3.1.1.3}%
+\contentsline {paragraph}{\numberline {3.1.1.3.1}Radio Sub-Modes}{19}{paragraph.3.1.1.3.1}%
+\contentsline {paragraph}{\numberline {3.1.1.3.2}Cellular Sub-Modes}{20}{paragraph.3.1.1.3.2}%
+\contentsline {subsection}{\numberline {3.1.2}BDP-Medium}{20}{subsection.3.1.2}%
+\contentsline {subsubsection}{\numberline {3.1.2.1}States}{21}{subsubsection.3.1.2.1}%
+\contentsline {subsubsection}{\numberline {3.1.2.2}Sub-States}{21}{subsubsection.3.1.2.2}%
+\contentsline {subsubsection}{\numberline {3.1.2.3}Modes}{22}{subsubsection.3.1.2.3}%
+\contentsline {paragraph}{\numberline {3.1.2.3.1}Radio Modes}{22}{paragraph.3.1.2.3.1}%
+\contentsline {paragraph}{\numberline {3.1.2.3.2}Television Modes}{23}{paragraph.3.1.2.3.2}%
+\contentsline {paragraph}{\numberline {3.1.2.3.3}Cellular Modes}{23}{paragraph.3.1.2.3.3}%
+\contentsline {subsubsection}{\numberline {3.1.2.4}Sub-Modes}{24}{subsubsection.3.1.2.4}%
+\contentsline {paragraph}{\numberline {3.1.2.4.1}Radio Sub-Modes}{24}{paragraph.3.1.2.4.1}%
+\contentsline {paragraph}{\numberline {3.1.2.4.2}TV Sub-Modes}{26}{paragraph.3.1.2.4.2}%
+\contentsline {paragraph}{\numberline {3.1.2.4.3}Cellular Sub-Modes}{27}{paragraph.3.1.2.4.3}%
+\contentsline {subsection}{\numberline {3.1.3}BDP-Heavy}{28}{subsection.3.1.3}%
+\contentsline {subsubsection}{\numberline {3.1.3.1}States}{29}{subsubsection.3.1.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.3.2}Sub-States}{29}{subsubsection.3.1.3.2}%
+\contentsline {subsubsection}{\numberline {3.1.3.3}Modes}{30}{subsubsection.3.1.3.3}%
+\contentsline {paragraph}{\numberline {3.1.3.3.1}Radio Modes}{30}{paragraph.3.1.3.3.1}%
+\contentsline {paragraph}{\numberline {3.1.3.3.2}Television Modes}{31}{paragraph.3.1.3.3.2}%
+\contentsline {paragraph}{\numberline {3.1.3.3.3}Cellular Modes}{31}{paragraph.3.1.3.3.3}%
+\contentsline {subsubsection}{\numberline {3.1.3.4}Sub-Modes}{32}{subsubsection.3.1.3.4}%
+\contentsline {paragraph}{\numberline {3.1.3.4.1}Radio Sub-Modes}{32}{paragraph.3.1.3.4.1}%
+\contentsline {paragraph}{\numberline {3.1.3.4.2}TV Sub-Modes}{34}{paragraph.3.1.3.4.2}%
+\contentsline {paragraph}{\numberline {3.1.3.4.3}Cellular Sub-Modes}{35}{paragraph.3.1.3.4.3}%
+\contentsline {section}{\numberline {3.2}External Interfaces}{36}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Operator Interfaces}{36}{subsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.1.1}Graphical User Interface}{38}{subsubsection.3.2.1.1}%
+\contentsline {subsubsection}{\numberline {3.2.1.2}Command Line}{38}{subsubsection.3.2.1.2}%
+\contentsline {subsection}{\numberline {3.2.2}Network Interfaces}{38}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Media}{39}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Rebroadcast Receive}{39}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.2.5}Interference}{40}{subsection.3.2.5}%
+\contentsline {subsubsection}{\numberline {3.2.5.1}AM Interference}{40}{subsubsection.3.2.5.1}%
+\contentsline {paragraph}{\numberline {3.2.5.1.1}BDP-Medium AM Interference}{40}{paragraph.3.2.5.1.1}%
+\contentsline {paragraph}{\numberline {3.2.5.1.2}BDP-Heavy AM Interference}{41}{paragraph.3.2.5.1.2}%
+\contentsline {subsubsection}{\numberline {3.2.5.2}SW Interference}{42}{subsubsection.3.2.5.2}%
+\contentsline {paragraph}{\numberline {3.2.5.2.1}BDP-Medium SW Interference}{42}{paragraph.3.2.5.2.1}%
+\contentsline {paragraph}{\numberline {3.2.5.2.2}BDP-Heavy SW Interference}{43}{paragraph.3.2.5.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.5.3}FM Interference}{44}{subsubsection.3.2.5.3}%
+\contentsline {subsubsection}{\numberline {3.2.5.4}VHF Interference}{45}{subsubsection.3.2.5.4}%
+\contentsline {paragraph}{\numberline {3.2.5.4.1}BDP-Medium VHF Interference}{45}{paragraph.3.2.5.4.1}%
+\contentsline {paragraph}{\numberline {3.2.5.4.2}BDP-Heavy VHF Interference}{46}{paragraph.3.2.5.4.2}%
+\contentsline {subsubsection}{\numberline {3.2.5.5}UHF Interference}{47}{subsubsection.3.2.5.5}%
+\contentsline {subsection}{\numberline {3.2.6}Target Audience}{48}{subsection.3.2.6}%
+\contentsline {subsubsection}{\numberline {3.2.6.1}Omnidirectional Antenna}{48}{subsubsection.3.2.6.1}%
+\contentsline {paragraph}{\numberline {3.2.6.1.1}BDP-Medium Omnidirectional AM}{48}{paragraph.3.2.6.1.1}%
+\contentsline {paragraph}{\numberline {3.2.6.1.2}BDP-Heavy Omnidirectional AM}{49}{paragraph.3.2.6.1.2}%
+\contentsline {paragraph}{\numberline {3.2.6.1.3}BDP-Medium Omnidirectional SW}{49}{paragraph.3.2.6.1.3}%
+\contentsline {paragraph}{\numberline {3.2.6.1.4}BDP-Heavy Omnidirectional SW}{49}{paragraph.3.2.6.1.4}%
+\contentsline {paragraph}{\numberline {3.2.6.1.5}Omnidirectional FM}{50}{paragraph.3.2.6.1.5}%
+\contentsline {paragraph}{\numberline {3.2.6.1.6}BDP-Medium Omnidirectional VHF}{50}{paragraph.3.2.6.1.6}%
+\contentsline {paragraph}{\numberline {3.2.6.1.7}BDP-Heavy Omnidirectional VHF}{50}{paragraph.3.2.6.1.7}%
+\contentsline {paragraph}{\numberline {3.2.6.1.8}Omnidirectional UHF}{51}{paragraph.3.2.6.1.8}%
+\contentsline {subsubsection}{\numberline {3.2.6.2}Directional Antenna}{51}{subsubsection.3.2.6.2}%
+\contentsline {paragraph}{\numberline {3.2.6.2.1}BDP-Medium Directional SW}{51}{paragraph.3.2.6.2.1}%
+\contentsline {paragraph}{\numberline {3.2.6.2.2}BDP-Heavy Directional SW}{51}{paragraph.3.2.6.2.2}%
+\contentsline {paragraph}{\numberline {3.2.6.2.3}BDP-Light Directional FM}{52}{paragraph.3.2.6.2.3}%
+\contentsline {paragraph}{\numberline {3.2.6.2.4}BDP-Medium Directional FM}{52}{paragraph.3.2.6.2.4}%
+\contentsline {paragraph}{\numberline {3.2.6.2.5}BDP-Heavy Directional FM}{52}{paragraph.3.2.6.2.5}%
+\contentsline {paragraph}{\numberline {3.2.6.2.6}BDP-Medium Directional VHF}{53}{paragraph.3.2.6.2.6}%
+\contentsline {paragraph}{\numberline {3.2.6.2.7}BDP-Heavy Directional VHF}{53}{paragraph.3.2.6.2.7}%
+\contentsline {paragraph}{\numberline {3.2.6.2.8}BDP-Light Directional UHF}{53}{paragraph.3.2.6.2.8}%
+\contentsline {paragraph}{\numberline {3.2.6.2.9}BDP-Medium Directional UHF}{54}{paragraph.3.2.6.2.9}%
+\contentsline {paragraph}{\numberline {3.2.6.2.10}BDP-Heavy Directional UHF}{54}{paragraph.3.2.6.2.10}%
+\contentsline {section}{\numberline {3.3}Capabilities}{54}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Control Processing}{57}{subsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.1.1}Operator}{57}{subsubsection.3.3.1.1}%
+\contentsline {paragraph}{\numberline {3.3.1.1.1}Remote Device}{57}{paragraph.3.3.1.1.1}%
+\contentsline {paragraph}{\numberline {3.3.1.1.2}BDP-Medium Propagation Modeling}{57}{paragraph.3.3.1.1.2}%
+\contentsline {paragraph}{\numberline {3.3.1.1.3}BDP-Heavy Propagation Modeling}{57}{paragraph.3.3.1.1.3}%
+\contentsline {subsection}{\numberline {3.3.2}Media Processing}{58}{subsection.3.3.2}%
+\contentsline {subsubsection}{\numberline {3.3.2.1}Media Input Processing}{58}{subsubsection.3.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.3.2.2}Media Output Processing}{60}{subsubsection.3.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.3.2.3}Report Processing}{61}{subsubsection.3.3.2.3}%
+\contentsline {subsection}{\numberline {3.3.3}Waveform Processing}{63}{subsection.3.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.3.1}AM Waveform Processing}{63}{subsubsection.3.3.3.1}%
+\contentsline {paragraph}{\numberline {3.3.3.1.1}BDP-Medium {AM}\xspace Waveform Processing}{65}{paragraph.3.3.3.1.1}%
+\contentsline {subparagraph}{\numberline {3.3.3.1.1.1}BDP-Medium {AM}\xspace Waveform Transmission Processing}{65}{subparagraph.3.3.3.1.1.1}%
+\contentsline {subparagraph}{\numberline {3.3.3.1.1.2}BDP-Medium {AM}\xspace Waveform {VSWR}\xspace Processing}{67}{subparagraph.3.3.3.1.1.2}%
+\contentsline {paragraph}{\numberline {3.3.3.1.2}BDP-Heavy {AM}\xspace Waveform Processing}{69}{paragraph.3.3.3.1.2}%
+\contentsline {subparagraph}{\numberline {3.3.3.1.2.1}BDP-Heavy {AM}\xspace Waveform Transmission Processing}{69}{subparagraph.3.3.3.1.2.1}%
+\contentsline {subparagraph}{\numberline {3.3.3.1.2.2}BDP-Heavy {AM}\xspace Waveform {VSWR}\xspace Processing}{71}{subparagraph.3.3.3.1.2.2}%
+\contentsline {subsubsection}{\numberline {3.3.3.2}SW Waveform Processing}{72}{subsubsection.3.3.3.2}%
+\contentsline {paragraph}{\numberline {3.3.3.2.1}BDP-Medium {SW}\xspace Waveform Processing}{74}{paragraph.3.3.3.2.1}%
+\contentsline {subparagraph}{\numberline {3.3.3.2.1.1}BDP-Medium {SW}\xspace Waveform Transmission Processing}{74}{subparagraph.3.3.3.2.1.1}%
+\contentsline {subparagraph}{\numberline {3.3.3.2.1.2}BDP-Medium {SW}\xspace Waveform {VSWR}\xspace Processing}{76}{subparagraph.3.3.3.2.1.2}%
+\contentsline {paragraph}{\numberline {3.3.3.2.2}BDP-Heavy {SW}\xspace Waveform Processing}{78}{paragraph.3.3.3.2.2}%
+\contentsline {subparagraph}{\numberline {3.3.3.2.2.1}BDP-Heavy {SW}\xspace Waveform Transmission Processing}{78}{subparagraph.3.3.3.2.2.1}%
+\contentsline {subparagraph}{\numberline {3.3.3.2.2.2}BDP-Heavy {SW}\xspace Waveform {VSWR}\xspace Processing}{80}{subparagraph.3.3.3.2.2.2}%
+\contentsline {subsubsection}{\numberline {3.3.3.3}FM Waveform Processing}{81}{subsubsection.3.3.3.3}%
+\contentsline {paragraph}{\numberline {3.3.3.3.1}BDP-Light {FM}\xspace Waveform Processing}{83}{paragraph.3.3.3.3.1}%
+\contentsline {subparagraph}{\numberline {3.3.3.3.1.1}BDP-Light {FM}\xspace Waveform Transmission Processing}{83}{subparagraph.3.3.3.3.1.1}%
+\contentsline {subparagraph}{\numberline {3.3.3.3.1.2}BDP-Light {FM}\xspace Waveform {VSWR}\xspace Processing}{86}{subparagraph.3.3.3.3.1.2}%
+\contentsline {paragraph}{\numberline {3.3.3.3.2}BDP-Medium {FM}\xspace Waveform Processing}{88}{paragraph.3.3.3.3.2}%
+\contentsline {subparagraph}{\numberline {3.3.3.3.2.1}BDP-Medium {FM}\xspace Waveform Receive Processing}{88}{subparagraph.3.3.3.3.2.1}%
+\contentsline {subparagraph}{\numberline {3.3.3.3.2.2}BDP-Medium {FM}\xspace Waveform Transmission Processing}{89}{subparagraph.3.3.3.3.2.2}%
+\contentsline {subparagraph}{\numberline {3.3.3.3.2.3}BDP-Medium {FM}\xspace Waveform {VSWR}\xspace Processing}{93}{subparagraph.3.3.3.3.2.3}%
+\contentsline {paragraph}{\numberline {3.3.3.3.3}BDP-Heavy {FM}\xspace Waveform Processing}{95}{paragraph.3.3.3.3.3}%
+\contentsline {subparagraph}{\numberline {3.3.3.3.3.1}BDP-Heavy {FM}\xspace Waveform Receive Processing}{95}{subparagraph.3.3.3.3.3.1}%
+\contentsline {subparagraph}{\numberline {3.3.3.3.3.2}BDP-Heavy {FM}\xspace Waveform Transmission Processing}{96}{subparagraph.3.3.3.3.3.2}%
+\contentsline {subparagraph}{\numberline {3.3.3.3.3.3}BDP-Heavy {FM}\xspace Waveform {VSWR}\xspace Processing}{100}{subparagraph.3.3.3.3.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.3.4}Analog TV Waveform Processing}{101}{subsubsection.3.3.3.4}%
+\contentsline {paragraph}{\numberline {3.3.3.4.1}BDP-Medium {ATV}\xspace Waveform Processing}{103}{paragraph.3.3.3.4.1}%
+\contentsline {subparagraph}{\numberline {3.3.3.4.1.1}BDP-Medium {ATV}\xspace Waveform Transmission Processing}{103}{subparagraph.3.3.3.4.1.1}%
+\contentsline {subparagraph}{\numberline {3.3.3.4.1.2}BDP-Medium {ATV}\xspace Waveform {VSWR}\xspace Processing}{105}{subparagraph.3.3.3.4.1.2}%
+\contentsline {paragraph}{\numberline {3.3.3.4.2}BDP-Heavy {ATV}\xspace Waveform Processing}{107}{paragraph.3.3.3.4.2}%
+\contentsline {subparagraph}{\numberline {3.3.3.4.2.1}BDP-Heavy {ATV}\xspace Waveform Transmission Processing}{107}{subparagraph.3.3.3.4.2.1}%
+\contentsline {subparagraph}{\numberline {3.3.3.4.2.2}BDP-Heavy {ATV}\xspace Waveform {VSWR}\xspace Processing}{109}{subparagraph.3.3.3.4.2.2}%
+\contentsline {subsubsection}{\numberline {3.3.3.5}Digital TV Waveform Processing}{110}{subsubsection.3.3.3.5}%
+\contentsline {paragraph}{\numberline {3.3.3.5.1}BDP-Medium {DTV}\xspace Waveform Processing}{112}{paragraph.3.3.3.5.1}%
+\contentsline {subparagraph}{\numberline {3.3.3.5.1.1}BDP-Medium {DTV}\xspace Waveform Transmission Processing}{112}{subparagraph.3.3.3.5.1.1}%
+\contentsline {subparagraph}{\numberline {3.3.3.5.1.2}BDP-Medium {DTV}\xspace Waveform {VSWR}\xspace Processing}{114}{subparagraph.3.3.3.5.1.2}%
+\contentsline {paragraph}{\numberline {3.3.3.5.2}BDP-Heavy {DTV}\xspace Waveform Processing}{116}{paragraph.3.3.3.5.2}%
+\contentsline {subparagraph}{\numberline {3.3.3.5.2.1}BDP-Heavy {DTV}\xspace Waveform Transmission Processing}{116}{subparagraph.3.3.3.5.2.1}%
+\contentsline {subparagraph}{\numberline {3.3.3.5.2.2}BDP-Heavy {DTV}\xspace Waveform {VSWR}\xspace Processing}{118}{subparagraph.3.3.3.5.2.2}%
+\contentsline {subsection}{\numberline {3.3.4}RF Processing}{120}{subsection.3.3.4}%
+\contentsline {subsubsection}{\numberline {3.3.4.1}BDP-Light RF Processing}{120}{subsubsection.3.3.4.1}%
+\contentsline {paragraph}{\numberline {3.3.4.1.1}BDP-Light {FM}\xspace {RF}\xspace Processing}{120}{paragraph.3.3.4.1.1}%
+\contentsline {subparagraph}{\numberline {3.3.4.1.1.1}BDP-Light {FM}\xspace {RF}\xspace Transmission Processing}{120}{subparagraph.3.3.4.1.1.1}%
+\contentsline {subparagraph}{\numberline {3.3.4.1.1.2}BDP-Light {FM}\xspace {RF}\xspace Receive Processing}{122}{subparagraph.3.3.4.1.1.2}%
+\contentsline {paragraph}{\numberline {3.3.4.1.2}BDP-Light {TV}\xspace {RF}\xspace Processing}{124}{paragraph.3.3.4.1.2}%
+\contentsline {subparagraph}{\numberline {3.3.4.1.2.1}BDP-Light {VHF-L}\xspace {RF}\xspace Transmission Processing}{126}{subparagraph.3.3.4.1.2.1}%
+\contentsline {subparagraph}{\numberline {3.3.4.1.2.2}BDP-Light {VHF-H}\xspace {RF}\xspace Transmission Processing}{127}{subparagraph.3.3.4.1.2.2}%
+\contentsline {subparagraph}{\numberline {3.3.4.1.2.3}BDP-Light {TV UHF}\xspace {RF}\xspace Transmission Processing}{128}{subparagraph.3.3.4.1.2.3}%
+\contentsline {subsection}{\numberline {3.3.5}Network Processing}{129}{subsection.3.3.5}%
+\contentsline {subsubsection}{\numberline {3.3.5.1}Digital File Transfer}{129}{subsubsection.3.3.5.1}%
+\contentsline {subsection}{\numberline {3.3.6}BIT}{130}{subsection.3.3.6}%
+\contentsline {subsubsection}{\numberline {3.3.6.1}{BIT}\xspace Processing}{130}{subsubsection.3.3.6.1}%
+\contentsline {subsubsection}{\numberline {3.3.6.2}{BIT}\xspace Log Reporting}{130}{subsubsection.3.3.6.2}%
+\contentsline {section}{\numberline {3.4}Internal Interface Requirements}{130}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}IIR One}{131}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}IIR Two}{131}{subsection.3.4.2}%
+\contentsline {section}{\numberline {3.5}Internal Data Requirements}{131}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Data Storage}{131}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}Report Logs}{132}{subsection.3.5.2}%
+\contentsline {section}{\numberline {3.6}Adaptation Requirements}{132}{section.3.6}%
+\contentsline {section}{\numberline {3.7}Safety Requirements}{132}{section.3.7}%
+\contentsline {subsection}{\numberline {3.7.1}Electromagnetic Radiation}{133}{subsection.3.7.1}%
+\contentsline {section}{\numberline {3.8}Security and Privacy Requirements}{133}{section.3.8}%
+\contentsline {subsection}{\numberline {3.8.1}Security Requirements}{134}{subsection.3.8.1}%
+\contentsline {subsubsection}{\numberline {3.8.1.1}Physical Security}{134}{subsubsection.3.8.1.1}%
+\contentsline {subsubsection}{\numberline {3.8.1.2}Cyber Security}{134}{subsubsection.3.8.1.2}%
+\contentsline {subsubsection}{\numberline {3.8.1.3}Use of Prohibited Telecommunications Equipment}{134}{subsubsection.3.8.1.3}%
+\contentsline {subsection}{\numberline {3.8.2}Privacy Requirements}{134}{subsection.3.8.2}%
+\contentsline {section}{\numberline {3.9}Environmental Requirements}{134}{section.3.9}%
+\contentsline {subsection}{\numberline {3.9.1}Temperature}{135}{subsection.3.9.1}%
+\contentsline {subsection}{\numberline {3.9.2}Moisture}{135}{subsection.3.9.2}%
+\contentsline {subsection}{\numberline {3.9.3}Dust}{135}{subsection.3.9.3}%
+\contentsline {subsection}{\numberline {3.9.4}Shock}{135}{subsection.3.9.4}%
+\contentsline {subsection}{\numberline {3.9.5}Vibration}{135}{subsection.3.9.5}%
+\contentsline {subsection}{\numberline {3.9.6}Space}{136}{subsection.3.9.6}%
+\contentsline {subsubsection}{\numberline {3.9.6.1}BDP-Light Space}{136}{subsubsection.3.9.6.1}%
+\contentsline {subsubsection}{\numberline {3.9.6.2}BDP-Medium Space}{136}{subsubsection.3.9.6.2}%
+\contentsline {subsection}{\numberline {3.9.7}Weight}{136}{subsection.3.9.7}%
+\contentsline {subsubsection}{\numberline {3.9.7.1}BDP-Light Weight}{136}{subsubsection.3.9.7.1}%
+\contentsline {subsubsection}{\numberline {3.9.7.2}BDP-Medium Weight}{137}{subsubsection.3.9.7.2}%
+\contentsline {subsubsection}{\numberline {3.9.7.3}BDP-Heavy Weight}{137}{subsubsection.3.9.7.3}%
+\contentsline {subsection}{\numberline {3.9.8}Power}{138}{subsection.3.9.8}%
+\contentsline {subsubsection}{\numberline {3.9.8.1}BDP-Light Power}{138}{subsubsection.3.9.8.1}%
+\contentsline {subsubsection}{\numberline {3.9.8.2}BDP-Medium Power}{139}{subsubsection.3.9.8.2}%
+\contentsline {subsubsection}{\numberline {3.9.8.3}BDP-Heavy Power}{139}{subsubsection.3.9.8.3}%
+\contentsline {subsection}{\numberline {3.9.9}Electromagnetic}{139}{subsection.3.9.9}%
+\contentsline {subsection}{\numberline {3.9.10}Altitude}{139}{subsection.3.9.10}%
+\contentsline {section}{\numberline {3.10}Technology Resource Requirements}{140}{section.3.10}%
+\contentsline {subsection}{\numberline {3.10.1}Hardware Resources}{140}{subsection.3.10.1}%
+\contentsline {subsection}{\numberline {3.10.2}Software Resources}{140}{subsection.3.10.2}%
+\contentsline {subsection}{\numberline {3.10.3}Communications Resources}{140}{subsection.3.10.3}%
+\contentsline {subsection}{\numberline {3.10.4}Other Resources}{140}{subsection.3.10.4}%
+\contentsline {subsection}{\numberline {3.10.5}Utilization Resources}{141}{subsection.3.10.5}%
+\contentsline {section}{\numberline {3.11}System Quality Requirements}{141}{section.3.11}%
+\contentsline {subsection}{\numberline {3.11.1}Quality Systems}{141}{subsection.3.11.1}%
+\contentsline {subsection}{\numberline {3.11.2}Operational Quality}{142}{subsection.3.11.2}%
+\contentsline {subsubsection}{\numberline {3.11.2.1}BDP-Light}{142}{subsubsection.3.11.2.1}%
+\contentsline {subsubsection}{\numberline {3.11.2.2}BDP-Medium}{142}{subsubsection.3.11.2.2}%
+\contentsline {subsubsection}{\numberline {3.11.2.3}BDP-Heavy}{142}{subsubsection.3.11.2.3}%
+\contentsline {section}{\numberline {3.12}Design and Construction Requirements}{143}{section.3.12}%
+\contentsline {subsection}{\numberline {3.12.1}Regulatory Restrictions}{143}{subsection.3.12.1}%
+\contentsline {subsection}{\numberline {3.12.2}Design Defences}{143}{subsection.3.12.2}%
+\contentsline {subsubsection}{\numberline {3.12.2.1}System Set-Up Time}{143}{subsubsection.3.12.2.1}%
+\contentsline {paragraph}{\numberline {3.12.2.1.1}BDP-Heavy}{143}{paragraph.3.12.2.1.1}%
+\contentsline {paragraph}{\numberline {3.12.2.1.2}BDP-Medium}{144}{paragraph.3.12.2.1.2}%
+\contentsline {paragraph}{\numberline {3.12.2.1.3}BDP-Light}{144}{paragraph.3.12.2.1.3}%
+\contentsline {subsubsection}{\numberline {3.12.2.2}Mast and Antenna Employment}{144}{subsubsection.3.12.2.2}%
+\contentsline {paragraph}{\numberline {3.12.2.2.1}BDP-Heavy}{144}{paragraph.3.12.2.2.1}%
+\contentsline {paragraph}{\numberline {3.12.2.2.2}BDP-Medium}{145}{paragraph.3.12.2.2.2}%
+\contentsline {paragraph}{\numberline {3.12.2.2.3}BDP-Light}{145}{paragraph.3.12.2.2.3}%
+\contentsline {subsubsection}{\numberline {3.12.2.3}Antenna Height Extension}{145}{subsubsection.3.12.2.3}%
+\contentsline {subsubsection}{\numberline {3.12.2.4}System Supportability}{146}{subsubsection.3.12.2.4}%
+\contentsline {subsection}{\numberline {3.12.3}Construction Constraints}{146}{subsection.3.12.3}%
+\contentsline {section}{\numberline {3.13}Personnel Requirements}{146}{section.3.13}%
+\contentsline {section}{\numberline {3.14}Training Requirements}{146}{section.3.14}%
+\contentsline {subsection}{\numberline {3.14.1}Manuals}{146}{subsection.3.14.1}%
+\contentsline {subsection}{\numberline {3.14.2}Materials}{147}{subsection.3.14.2}%
+\contentsline {subsection}{\numberline {3.14.3}Courses}{147}{subsection.3.14.3}%
+\contentsline {section}{\numberline {3.15}Logistics Requirements}{147}{section.3.15}%
+\contentsline {subsection}{\numberline {3.15.1}Transportability}{147}{subsection.3.15.1}%
+\contentsline {subsubsection}{\numberline {3.15.1.1}BDP-Light}{148}{subsubsection.3.15.1.1}%
+\contentsline {subsubsection}{\numberline {3.15.1.2}BDP-Medium}{148}{subsubsection.3.15.1.2}%
+\contentsline {section}{\numberline {3.16}Packaging Requirements}{148}{section.3.16}%
+\contentsline {subsection}{\numberline {3.16.1}Shipping Constraints}{148}{subsection.3.16.1}%
+\contentsline {section}{\numberline {3.17}Other Requirements}{148}{section.3.17}%
+\contentsline {subsection}{\numberline {3.17.1}Broadcast Playlist Manager}{149}{subsection.3.17.1}%
+\contentsline {subsection}{\numberline {3.17.2}Information Exchange}{149}{subsection.3.17.2}%
+\contentsline {section}{\numberline {3.18}Precedence of Requirements}{149}{section.3.18}%
+\contentsline {subsection}{\numberline {3.18.1}Safety}{150}{subsection.3.18.1}%
+\contentsline {subsection}{\numberline {3.18.2}Security and Privacy}{150}{subsection.3.18.2}%
+\contentsline {subsection}{\numberline {3.18.3}Other}{151}{subsection.3.18.3}%
+\contentsline {chapter}{\numberline {4}Qualification Provisions}{152}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Traceability}{153}{chapter.5}%
+{\vskip 1.0ex plus\p@ {\bfseries \noindent APPENDIX \hfill }}
+ 
+\contentsline {chapter}{Notes}{177}{appendix.A}%
+\contentsline {chapter}{Key Performance Parameters and System Attributes}{178}{appendix.B}%
+\contentsline {section}{\numberline {B.1}Key Performance Parameters}{178}{section.B.1}%
+\contentsline {section}{\numberline {B.2}Key System Attributes}{188}{section.B.2}%

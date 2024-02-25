@@ -1,0 +1,30 @@
+The \ThisSys \ThisSegment capability is divided into the following specification groups:
+\begin{description}
+	\item[Output processing] provides the \AM broadcast output capability, \S~\ref{loc:RF_AM_Output}.
+	\item[Input processing]  provides the \AM broadcast input  capability, \S~\ref{loc:RF_AM_Input}.
+\end{description}
+An overview the processing performed by these groups is shown in Figure~\ref{fig:AM_RF_Processing}.
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[width=6.5in]{../zProjectWideData/images/RFProcessing_AM_300dpi_6500millWide.eps}
+	\caption[AM RF Processing Overview]{AM RF Processing Overview}
+	\label{fig:AM_RF_Processing}
+\end{figure}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\KNEADPARAGRAPHNEWPAGE
+\paragraph{\AM \RF Output Processing}
+\label{loc:RF_AM_Output}
+\RequirementNumberAM{paragraph}{3.3.2.1}
+\renewcommand{\ThisSubSegment}{\AM \RF Output Processing\xspace}% used for documetation automation in specification groups
+\input{sections/3.03.Capabilities/RF/RF_AM_Processing_Output.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\KNEADPARAGRAPHNEWPAGE
+\paragraph{\AM \RF Input Processing}
+\label{loc:RF_AM_Input}
+\RequirementNumberAM{paragraph}{3.3.2.1}
+\renewcommand{\ThisSubSegment}{\AM \RF Input Processing\xspace}% used for documetation automation in specification groups
+\input{sections/3.03.Capabilities/RF/RF_AM_Processing_Input.tex}

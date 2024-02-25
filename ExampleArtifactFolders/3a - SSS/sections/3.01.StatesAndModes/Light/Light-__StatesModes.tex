@@ -1,0 +1,180 @@
+%\KNEADSECTIONNEWPAGE
+%\section{States and Modes}
+%\label{sec:StatesAndModes}
+%\RequirementNumberAM{section}{3.1}
+%\input{DIDINFO_Snippets/SSS/SSS_3.1.0_DIDINFO.tex}
+%
+%This section lists the states, sub-states, modes, and sub-modes that are provided by the system.
+%While these terms can be construed in many ways, for this document, the following meanings are used:
+%\begin{description}
+	%\item[States] are the basic configurations of the system.
+	%\item[Sub-states] are the effective state of being for the system.
+	%\item[Modes] are the basic functions to be performed by the system when in a given state and/or sub-state.
+	%\item[Sub-modes] if listed, are specific function modifications to be performed by the system within the given mode/function.
+%\end{description}
+
+A summary of the modes for each sub-state and state is provided in Table~\ref{tab:Light-StatesAndModes} below.
+%~\ref{tab:StatesAndModes-Light}, ~\ref{tab:StatesAndModes-Medium}, and ~\ref{tab:StatesAndModes-Heavy}
+The table provides a quick summary. A check mark (\cmark) designates a system capability, while an x mark (\xmark) designates an inability.
+See the specifications in the following sections for formal statement of the states and modes requirements, and accompanying notes that provide further clarification on the meanings of the states, sub-states, and modes.
+\begin{table}[htbp]
+	\begin{center}
+		\begin{tabular}{|lcc|}
+			%\hline
+			\hline
+			     &    \multicolumn{2}{c|}{{\bf STATES}}\\
+			%\hline
+			     & {\bf Single Mode Broadcast} & {\bf Multi-Mode Broadcast}	\\
+			%\hline
+			%\hline
+{\bf MODES}	$\|$	Sub Modes	&		&	\\
+			%\hline
+Radio												&					&					\\\hline
+\hspace{3mm}AM							& \xmark  & \xmark	\\\hline
+\hspace{3mm}FM							& \cmark 1 channel &	\xmark	\\\hline
+\hspace{3mm}SW							& \xmark  & \xmark	\\\hline
+TV													&					&						\\\hline
+\hspace{3mm}Analog 					& \xmark  & \xmark		\\\hline
+\hspace{3mm}Digital					& \xmark  & \xmark		\\\hline
+Cellular										&					&						\\\hline
+\hspace{3mm}SMS							& \cmark 1 band  & \xmark		\\\hline
+\hspace{3mm}MMS							& \xmark  & \xmark		\\\hline
+\hspace{3mm}CBS							&	\xmark	&	\xmark			\\
+			\hline
+			\end{tabular}
+				\caption{Summary of States, Modes, and Sub-Modes for the Light Variant}
+				\label{tab:Light-StatesAndModes}
+		\end{center}
+\end{table}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\begin{table}[htbp]
+	%\begin{center}
+		%\begin{tabular}{|lcc|}
+			%%\hline
+			%\hline
+			     %&    \multicolumn{2}{c|}{{\bf STATES}}\\
+			%%\hline
+			     %& {\bf Single Mode Broadcast} & {\bf Multi-Mode Broadcast}	\\
+			%%\hline
+			%%\hline
+%{\bf MODES}	$\|$	Sub Modes	&		&	\\
+			%%\hline
+%Radio												&					&					\\%\hline
+%\hspace{3mm}AM							& 1 channel	&	\cmark	\\%\hline
+%\hspace{3mm}FM							& 4 channels	&	\cmark	\\%\hline
+%\hspace{3mm}SW							& \cmark	& \cmark	\\%\hline
+%TV													&	3 channels, including sub-channels	&		\\%\hline
+%\hspace{3mm}Analog 					& \cmark	& \cmark		\\%\hline
+%\hspace{3mm}Digital					& \cmark  & \cmark		\\%\hline
+%Cellular										&					&						\\%\hline
+%\hspace{3mm}SMS							& 2 bands  & \cmark		\\%\hline
+%\hspace{3mm}MMS							& \cmark  & \cmark		\\%\hline
+%\hspace{3mm}CBS							&	\cmark	&	\cmark			\\
+			%\hline
+			%\end{tabular}
+				%\caption{Summary of States, Modes, and Sub-Modes for the Medium Variant}
+				%\label{tab:StatesAndModes-Medium}
+		%\end{center}
+%\end{table}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\begin{table}[htbp]
+	%\begin{center}
+		%\begin{tabular}{|lcc|}
+			%%\hline
+			%\hline
+			     %&    \multicolumn{2}{c|}{{\bf STATES}}\\
+			%%\hline
+			     %& {\bf Single Mode Broadcast} & {\bf Multi-Mode Broadcast}	\\
+			%%\hline
+			%%\hline
+%{\bf MODES}	$\|$	Sub Modes	&		&	\\
+			%%\hline
+%Radio												&					&					\\%\hline
+%\hspace{3mm}AM							& 1 channel	&	\cmark	\\%\hline
+%\hspace{3mm}FM							& 4 channels	&	\cmark	\\%\hline
+%\hspace{3mm}SW							& \cmark	& \cmark	\\%\hline
+%TV													&	3 channels, including sub-channels	&		\\%\hline
+%\hspace{3mm}Analog 					& \cmark	& \cmark		\\%\hline
+%\hspace{3mm}Digital					& \cmark  & \cmark		\\%\hline
+%Cellular										&					&						\\%\hline
+%\hspace{3mm}SMS							& 2 bands  & \cmark		\\%\hline
+%\hspace{3mm}MMS							& \cmark  & \cmark		\\%\hline
+%\hspace{3mm}CBS							&	\cmark	&	\cmark			\\
+			%\hline
+			%\end{tabular}
+				%\caption{Summary of States, Modes, and Sub-Modes for the Heavy Variant}
+				%\label{tab:StatesAndModes-Heavy}
+		%\end{center}
+%\end{table}
+%\newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newpage
+\subsubsection{States}
+\RequirementNumberAM{subsection}{3.1.1}
+\renewcommand{\RqtNumberBase}{\getcurrentref{subsubsection}}
+
+This section provides the system states.
+System states are the basic states for the system.
+
+\input{sections/3.01.StatesAndModes/Light/Light-States.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% sub-states would go here as section 3.1.2 but we're not going to drill down that far 
+%\paragraph{Sub-States}
+%\RequirementNumberAM{subsubsection}{3.1.1.1}
+%\label{loc:light_substates}
+%
+%This section provides the system sub-states.
+%System sub-states are defined by the operational configuration.
+%The sub-states are defined for each system configuration state.
+
+%\input{sections/3.01.StatesAndModes/SubStates.tex}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsubsection{Modes}
+\RequirementNumberAM{subsubsection}{3.1.1}
+\label{loc:light_modes}
+
+This section provides the system modes.
+System modes are the top-level functions to be performed by the system.
+The modes are by system states but may be qualified further by the sub-states.
+The modes describe the capabilities irrespective of the temporal processing constraints.
+
+\input{sections/3.01.StatesAndModes/Light/Light-Modes.tex}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsubsection{Sub-Modes}
+\RequirementNumberAM{subsection}{3.1.1}
+\label{loc:light_submodes}
+
+This section provides the system sub-modes.
+System sub-modes, if listed, are the specific functions to be performed by the system.
+The sub-modes are defined for each system mode.
+
+
+%%-----------------------------------------
+\paragraph{Radio Sub-Modes}
+\RequirementNumberAM{paragraph}{3.1.4.1}
+\label{loc:LightRadioSubMode}
+
+\input{sections/3.01.StatesAndModes/Light/Light-SubModes-Radio.tex}
+
+%
+%%-----------------------------------------
+\paragraph{Cellular Sub-Modes}
+\RequirementNumberAM{paragraph}{3.1.4.2}
+\label{loc:LightCellSubMode}
+
+\input{sections/3.01.StatesAndModes/Light/Light-SubModes-Cell.tex}
+

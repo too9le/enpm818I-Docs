@@ -1,0 +1,127 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{ref__DOD_STD_2106_NAVY}{online}{}
+      \name{author}{1}{}{%
+        {{hash=89b225e65bbd2c51655e69616cd56158}{%
+           family={Defense},
+           familyi={D\bibinitperiod},
+           given={US\bibnamedelima Department},
+           giveni={U\bibinitperiod\bibinitdelim D\bibinitperiod},
+           prefix={of},
+           prefixi={o\bibinitperiod}}}%
+      }
+      \strng{namehash}{89b225e65bbd2c51655e69616cd56158}
+      \strng{fullhash}{89b225e65bbd2c51655e69616cd56158}
+      \strng{bibnamehash}{89b225e65bbd2c51655e69616cd56158}
+      \strng{authorbibnamehash}{89b225e65bbd2c51655e69616cd56158}
+      \strng{authornamehash}{89b225e65bbd2c51655e69616cd56158}
+      \strng{authorfullhash}{89b225e65bbd2c51655e69616cd56158}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{DOD-STD-2106 (NAVY)}
+      \field{day}{31}
+      \field{month}{7}
+      \field{title}{Department of Defense Design Criteria Standard -- Development of Shipboard Industrial test Procedures}
+      \field{year}{1986}
+      \field{dateera}{ce}
+      \keyw{KNEAD_BiberGlobal}
+    \endentry
+    \entry{ref__OCD_DID}{online}{}
+      \name{author}{1}{}{%
+        {{hash=2f33953d0cfd609d5ed7660647ff9ce8}{%
+           family={{DI-IPSC-81430}},
+           familyi={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{2f33953d0cfd609d5ed7660647ff9ce8}
+      \strng{fullhash}{2f33953d0cfd609d5ed7660647ff9ce8}
+      \strng{bibnamehash}{2f33953d0cfd609d5ed7660647ff9ce8}
+      \strng{authorbibnamehash}{2f33953d0cfd609d5ed7660647ff9ce8}
+      \strng{authornamehash}{2f33953d0cfd609d5ed7660647ff9ce8}
+      \strng{authorfullhash}{2f33953d0cfd609d5ed7660647ff9ce8}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{{MIL-STD-498}}
+      \field{day}{31}
+      \field{month}{12}
+      \field{title}{{Data Item Description for Operational Concept Description (OCD)}}
+      \field{year}{1994}
+      \field{dateera}{ce}
+      \field{pages}{1\bibrangedash 7}
+      \range{pages}{7}
+      \keyw{KNEAD_BiberGlobal}
+    \endentry
+    \entry{ref__ISO_12207}{online}{}
+      \name{author}{1}{}{%
+        {{hash=3bbaa279c958e774e5f4477e0ef7b6a8}{%
+           family={{IEEE and EIA}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{3bbaa279c958e774e5f4477e0ef7b6a8}
+      \strng{fullhash}{3bbaa279c958e774e5f4477e0ef7b6a8}
+      \strng{bibnamehash}{3bbaa279c958e774e5f4477e0ef7b6a8}
+      \strng{authorbibnamehash}{3bbaa279c958e774e5f4477e0ef7b6a8}
+      \strng{authornamehash}{3bbaa279c958e774e5f4477e0ef7b6a8}
+      \strng{authorfullhash}{3bbaa279c958e774e5f4477e0ef7b6a8}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{{ISO/IEC 12207 Standard for Information Technology}}
+      \field{month}{3}
+      \field{title}{{Software life cycle processes}}
+      \field{year}{1998}
+      \field{pages}{1\bibrangedash 86}
+      \range{pages}{86}
+      \keyw{KNEAD_BiberGlobal}
+    \endentry
+    \entry{ref__MIL_STD_498}{online}{}
+      \name{author}{1}{}{%
+        {{hash=317e6e7df7ff2c8d2790f928abeb7906}{%
+           family={{MIL-STD-498}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{317e6e7df7ff2c8d2790f928abeb7906}
+      \strng{fullhash}{317e6e7df7ff2c8d2790f928abeb7906}
+      \strng{bibnamehash}{317e6e7df7ff2c8d2790f928abeb7906}
+      \strng{authorbibnamehash}{317e6e7df7ff2c8d2790f928abeb7906}
+      \strng{authornamehash}{317e6e7df7ff2c8d2790f928abeb7906}
+      \strng{authorfullhash}{317e6e7df7ff2c8d2790f928abeb7906}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{{MIL-STD-498}}
+      \field{day}{31}
+      \field{month}{12}
+      \field{title}{{Military Standard Software Development and Documentation}}
+      \field{year}{1994}
+      \field{dateera}{ce}
+      \keyw{KNEAD_BiberGlobal}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

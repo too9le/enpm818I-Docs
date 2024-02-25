@@ -1,0 +1,159 @@
+%%% \ONERQMTV[9] is macro for consistently formatted requirements
+\ONERQMTVKPP
+% #1 is requirement Number
+{\RqtNumberBase.1}
+% #2 is Title
+{BDP-Medium \FM Waveform Transmission Input Processing}
+% #3 is requirement label (expected to be of form rqt:XXX)
+{rqt:Waveform_FM_Medium_Transmission_Input}
+% #4 is Text of the specification
+{The BDP-Medium system shall decode and transform the \MPEGTS \FM data stream into a discrete-time digital stream; filter the signal, applying pre-emphasis; and \FM modulate on the \RF carrier; all controlled by the parameters of the Waveform Control Inputs.}
+% #5 is Status (S in {(T), (O), (I), (D)} listed by phase as \item [] S)
+{
+	\item [Phase 1]  Threshold
+}
+% #6 is Acceptance
+{This requirement shall be verified by demonstration.}
+% #7 is Traceability
+{
+	\item [5.1.1] Section in CDD for BDP FoS~\cite{ref__BDP_FOS_CDD}.
+	\item [5.1.2] Section in CDD for BDP FoS~\cite{ref__BDP_FOS_CDD}.
+	\item [5.5.1] Section in CDD for BDP FoS~\cite{ref__BDP_FOS_CDD}.
+	\item [5.5.2] Section in CDD for BDP FoS~\cite{ref__BDP_FOS_CDD}.
+	\item [5.5.3] Section in CDD for BDP FoS~\cite{ref__BDP_FOS_CDD}.
+	\item [5.5.4] Section in CDD for BDP FoS~\cite{ref__BDP_FOS_CDD}.
+	\item [5.5.5] Section in CDD for BDP FoS~\cite{ref__BDP_FOS_CDD}.
+}
+% #8 is Notes; listed as enumeration \item ...
+{
+	\item This processing is enabled when the input selects the sub-mode, Frequency Modulation (\FM) in this case and an \MPEGTS file to broadcast.
+	\item The audio information is obtained by decoding the \MPEGTS data stream, extracting the audio stream, and transforming it into a discrete-time digital representation (analytic signal) of the original analog audio signal.
+	\item The audio analytic signal is \FM modulated on the \RF carrier creating the Audio Data stream output for the Transmission Output Processing.
+	\item The Control Inputs supply the \RF carrier frequency, frequency deviation, and pre-emphasis information needed to produce the audio frequency modulated \RF waveform.
+}
+% #9 is version of spec for changebars
+{P2}
+%%%%% end \ONERQMTV[9] macro
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%% \ONERQMTV[9] is macro for consistently formatted requirements
+\ONERQMTVKPP
+% #1 is requirement Number
+{\RqtNumberBase.2}
+% #2 is Title
+{BDP-Medium \FM Waveform Transmission Input Processing of Rebroadcast file for \FM Sub-Mode}
+% #3 is requirement label (expected to be of form rqt:XXX)
+{rqt:Waveform_FM_Medium_Transmission_Input_Rebroadcast}
+% #4 is Text of the specification
+{The BDP-Medium system shall decompress the discrete-time digital \FM data stream and \FM modulate on the new \RF carrier frequency creating the audio data output stream.}
+% #5 is Status (S in {(T), (O), (I), (D)} listed by phase as \item [] S)
+{
+	\item [Phase 1]  Threshold
+}
+% #6 is Acceptance
+{This requirement shall be verified by demonstration.}
+% #7 is Traceability
+{
+	\item [5.1.1] Section in CDD for BDP FoS~\cite{ref__BDP_FOS_CDD}.
+	\item [5.1.2] Section in CDD for BDP FoS~\cite{ref__BDP_FOS_CDD}.
+	\item [5.5.1] Section in CDD for BDP FoS~\cite{ref__BDP_FOS_CDD}.
+	\item [5.5.2] Section in CDD for BDP FoS~\cite{ref__BDP_FOS_CDD}.
+	\item [5.5.3] Section in CDD for BDP FoS~\cite{ref__BDP_FOS_CDD}.
+	\item [5.5.4] Section in CDD for BDP FoS~\cite{ref__BDP_FOS_CDD}.
+	\item [5.5.5] Section in CDD for BDP FoS~\cite{ref__BDP_FOS_CDD}.
+	\item [5.5.12] Section in CDD for BDP FoS~\cite{ref__BDP_FOS_CDD}.
+}
+% #8 is Notes; listed as enumeration \item ...
+{
+	\item This processing is enabled when the input selects the sub-mode, Frequency Modulation (\FM) in this case and a compressed file to broadcast.
+	\item The recorded \FM information is decompressed transforming it into a discrete-time digital representation (analytic signal) of the original baseband analog \FM signal.
+	\item The analytic signal is \FM modulated on the new \RF carrier creating the Audio Data stream output for the Transmission Output Processing.
+	\item The Control Inputs supply the \RF carrier frequency and frequency deviation information needed to reproduce the \FM modulated \RF waveform.
+}
+% #9 is version of spec for changebars
+{P2}
+%%%%% end \ONERQMTV[9] macro
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% \ONERQMTV[9] is macro for consistently formatted requirements
+\ONERQMTVKPP
+% #1 is requirement Number
+{\RqtNumberBase.3}
+% #2 is Title
+{BDP-Medium \FM Waveform Transmission Input Processing for \FM with \RDS/\RBDS Sub-Mode}
+% #3 is requirement label (expected to be of form rqt:XXX)
+{rqt:Waveform_FM_Medium_Transmission_Input_RDS}
+% #4 is Text of the specification
+{The BDP-Medium system shall differentially encode the \RDS/\RBDS text converting it to bi-phase symbols and modulate on the \FM subcarrier using \DSBSC modulation; extract the audio information from the \MPEGTS \FM data stream; then combine these two signals transforming them into a discrete-time digital stream and \FM modulate on the \RF carrier; all controlled by the parameters of the Waveform Control Inputs.}
+% #5 is Status (S in {(T), (O), (I), (D)} listed by phase as \item [] S)
+{
+	\item [Phase 1]  Threshold
+}
+% #6 is Acceptance
+{This requirement shall be verified by demonstration.}
+% #7 is Traceability
+{
+	\item [5.1.1] Section in CDD for BDP FoS~\cite{ref__BDP_FOS_CDD}.
+	\item [5.1.2] Section in CDD for BDP FoS~\cite{ref__BDP_FOS_CDD}.
+	\item [5.1.4] Section in CDD for BDP FoS~\cite{ref__BDP_FOS_CDD}.
+	\item [5.5.1] Section in CDD for BDP FoS~\cite{ref__BDP_FOS_CDD}.
+	\item [5.5.2] Section in CDD for BDP FoS~\cite{ref__BDP_FOS_CDD}.
+	\item [5.5.3] Section in CDD for BDP FoS~\cite{ref__BDP_FOS_CDD}.
+	\item [5.5.4] Section in CDD for BDP FoS~\cite{ref__BDP_FOS_CDD}.
+	\item [5.5.5] Section in CDD for BDP FoS~\cite{ref__BDP_FOS_CDD}.
+}
+% #8 is Notes; listed as enumeration \item ...
+{
+	\item This processing is enabled when the input selects the sub-mode, \FM with \RDS.
+	\item The user entered \RDS/\RBDS text is differentially encoded, converted to bi-phase symbols, and mixed with a 57 \KHz subcarrier creating a \DSBSC modulated \RDS/\RBDS signal in the form of a discrete-time digital signal (analytic signal).
+	\item The audio information is obtained by decoding the \MPEGTS data stream, extracting the audio stream, and transforming it into a discrete-time digital representation (analytic signal) of the original analog audio signal. The audio analytic signal is then filtered, and pre-emphasis is applied.
+	\item The \RDS/\RBDS and audio analytic signals are summed together then \FM modulated on the \RF carrier creating the Audio Data stream output for the Transmission Output Processing.
+	\item The Control Inputs supply the \RF carrier frequency, frequency deviation, and pre-emphasis information needed to produce the audio frequency modulated \RF waveform.
+}
+% #9 is version of spec for changebars
+{P1}
+%%%%% end \ONERQMTV[9] macro
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%% \ONERQMTV[9] is macro for consistently formatted requirements
+\ONERQMTVKPP
+% #1 is requirement Number
+{\RqtNumberBase.4}
+% #2 is Title
+{BDP-Medium \FM Waveform Transmission Output Processing}
+% #3 is requirement label (expected to be of form rqt:XXX)
+{rqt:Waveform_FM_Medium_Transmission_Output}
+% #4 is Text of the specification
+{The BDP-Medium system shall use the digital audio stream from the Transmission Input Processing along with the control inputs to upsample, filter, and convert this to an analog signal creating the \FM Waveform \RF Broadcast Pre-Amp Data Output.}
+% #5 is Status (S in {(T), (O), (I), (D)} listed by phase as \item [] S)
+{
+	\item [Phase 1]  Threshold
+}
+% #6 is Acceptance
+{This requirement shall be verified by demonstration.}
+% #7 is Traceability
+{
+	\item [5.1.1] Section in CDD for BDP FoS~\cite{ref__BDP_FOS_CDD}.
+	\item [5.1.2] Section in CDD for BDP FoS~\cite{ref__BDP_FOS_CDD}.
+	\item [5.1.4] Section in CDD for BDP FoS~\cite{ref__BDP_FOS_CDD}.
+	\item [5.5.1] Section in CDD for BDP FoS~\cite{ref__BDP_FOS_CDD}.
+	\item [5.5.2] Section in CDD for BDP FoS~\cite{ref__BDP_FOS_CDD}.
+	\item [5.5.3] Section in CDD for BDP FoS~\cite{ref__BDP_FOS_CDD}.
+	\item [5.5.4] Section in CDD for BDP FoS~\cite{ref__BDP_FOS_CDD}.
+}
+% #8 is Notes; listed as enumeration \item ...
+{
+	\item The \FM Waveform \RF Broadcast Pre-Amp Data Output signal will have an unmodulated carrier output power level of −12 \dBm.
+	\item The average modulated \RF output power level will be estimated for use internally during the \FM Waveform \VSWR Processing.
+}
+% #9 is version of spec for changebars
+{P2}
+%%%%% end \ONERQMTV[9] macro
+

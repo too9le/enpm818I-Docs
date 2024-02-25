@@ -1,0 +1,15 @@
+[0] Config.pm:306> INFO - This is Biber 2.18
+[0] Config.pm:309> INFO - Logfile is 'KNEAD_STP.blg'
+[185] biber-MSWIN64:340> INFO - === 
+[258] Biber.pm:418> INFO - Reading 'KNEAD_STP.bcf'
+[452] Biber.pm:978> INFO - Found 4 citekeys in bib section 0
+[478] Biber.pm:4401> INFO - Processing section 0
+[498] Biber.pm:4592> INFO - Looking for bibtex file 'KNEAD_GlobalReferences.bib' for section 0
+[943] bibtex.pm:1713> INFO - LaTeX decoding ...
+[1051] bibtex.pm:1518> INFO - Found BibTeX data source 'C:/KNEADrepos/LatexInputs/KNEAD_GlobalReferences.bib'
+[1129] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1129] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1129] Biber.pm:4221> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[1129] Biber.pm:4227> INFO - No sort tailoring available for locale 'en-US'
+[1134] bbl.pm:654> INFO - Writing 'KNEAD_STP.bbl' with encoding 'UTF-8'
+[1137] bbl.pm:757> INFO - Output to KNEAD_STP.bbl

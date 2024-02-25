@@ -1,0 +1,63 @@
+%%%% \RQTM[9] is macro for consistently formatted requirements
+%\ONERQMTVKSA
+%% #0 is requirement number
+%{\RqtNumberBase.1}
+%% #1 is title
+%{Space}
+%% #2 is requirement label (expected to be of form rqt:XXX)
+%{rqt:Space}
+%% #3 is synopsis
+%{\ThisSys has an expected physical volume.}
+%% #4 is specifics (must be a list of \items)
+%{
+	%\RqmtThreshold{\ThisSys}{meet \TBD space requirements.}
+%}
+%% #5 is acceptance
+%{
+%This requirement will be verified by inspection of the physical system.
+%}
+%% #6 is status (active, inactive, etc.)
+%{
+	%\item [Phase 1] Threshold
+%}
+%% #7 is traceability
+%{This is a base requirement.}
+%% #8 is notes
+%{
+%\begin{enumerate}
+	%\item The goal is to construct the  so that it is roughly the same size as, or smaller than, the Avenger.
+%\end{enumerate}
+%}
+%%%%%% end \RQTM[9] macro
+
+%%% \ONERQMTV[9] is macro for consistently formatted requirements
+\ONERQMTVKSA
+% #1 is requirement Number
+{\RqtNumberBase.1}
+% #2 is Title
+{Space}
+% #3 is requirement label (expected to be of form rqt:XXX)
+{rqt:LightSpace}
+% #4 is Text of the specification
+{The BDP-Light system shall be modular and packaged for transport into 2 ruggedized cases.}
+% #5 is Status (S in {(T), (O), (I), (D)} listed by phase as \item [] S)
+{
+	\item [Phase 1] Threshold
+}
+% #6 is Acceptance
+{This requirement shall be verified by demonstration.}
+% #7 is Traceability
+%{
+	%\item [\cite{ref__BDP_FOS_CDD}] CDD for BDP FoS, Section 5.5.8
+%}
+{
+\item [5.5.8] Section in CDD for BDP FoS~\cite{ref__BDP_FOS_CDD}.
+}
+% #8 is Notes; listed as enumeration \item ...
+{
+	\item N/A
+}
+% #9 is changebar version
+{P1}
+%%%%% end \ONERQMTV[9] macro
+

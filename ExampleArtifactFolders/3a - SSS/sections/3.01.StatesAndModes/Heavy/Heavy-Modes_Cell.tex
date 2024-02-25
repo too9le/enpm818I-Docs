@@ -1,0 +1,34 @@
+%%% \ONERQMTV[9] is macro for consistently formatted requirements
+\ONERQMTVKPP
+% #1 is requirement Number
+{\RqtNumberBase.1}
+% #2 is Title
+{Mode Cellular Dissemination}
+% #3 is requirement label (expected to be of form rqt:XXX)
+{rqt:HeavyModeCell}
+% #4 is Text of the specification
+{The BDP-Heavy system shall provide the Cellular Dissemination Mode in the states and sub-states as shown in Table~\ref{tab:Heavy-StatesAndModes}.}
+% #5 is Status (S in {(T), (O), (I), (D)} listed by phase as \item [] S)
+{
+	\item [Phase 1] Threshold
+}
+% #6 is Acceptance
+{This requirement shall be verified by demonstration.}
+% #7 is Traceability
+%%{
+	%\item [\cite{ref__BDP_FOS_CDD}] CDD for BDP FoS, Sections 3.3.1, 5.1.3, 5.5.3, and 5.5.4.
+%}
+{
+\item [3.2.1] Section in CDD for BDP FoS~\cite{ref__BDP_FOS_CDD}.
+\item [5.5.3] Section in CDD for BDP FoS~\cite{ref__BDP_FOS_CDD}.
+\item [5.5.4] Section in CDD for BDP FoS~\cite{ref__BDP_FOS_CDD}.
+}
+% #8 is Notes; listed as enumeration \item ...
+{
+	\item The Cellular Dissemination Mode generalizes the case where the system disseminates cellular messages.
+	\item Sub-modes of SMS, MMS, and CBS shall be provided.
+}
+% #9 is changebar version
+{P1}
+%%%%% end \ONERQMTV[9] macro
+

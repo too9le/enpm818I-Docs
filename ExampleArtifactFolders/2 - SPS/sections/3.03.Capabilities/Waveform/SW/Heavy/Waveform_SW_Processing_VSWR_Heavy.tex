@@ -1,0 +1,71 @@
+%%% \ONERQMTV[9] is macro for consistently formatted requirements
+\ONERQMTVKPP
+% #1 is requirement Number
+{\RqtNumberBase.1}
+% #2 is Title
+{BDP-Heavy \SW Waveform \VSWR Input Processing}
+% #3 is requirement label (expected to be of form rqt:XXX)
+{rqt:Waveform_SW_Heavy_VSWR_Input}
+% #4 is Text of the specification
+{The BDP-Heavy system shall calculate the Average Reflected Power from the \SW Received \RF Data signal, all controlled by the parameters of the Waveform Control Inputs.}
+% #5 is Status (S in {(T), (O), (I), (D)} listed by phase as \item [] S)
+{
+	\item [Phase 1] Threshold
+}
+% #6 is Acceptance
+{This requirement shall be verified by demonstration.}
+% #7 is Traceability
+{
+	\item [5.1.1] Section in CDD for BDP FoS~\cite{ref__BDP_FOS_CDD}.
+	\item [5.1.2] Section in CDD for BDP FoS~\cite{ref__BDP_FOS_CDD}.
+	\item [5.5.1] Section in CDD for BDP FoS~\cite{ref__BDP_FOS_CDD}.
+	\item [5.5.3] Section in CDD for BDP FoS~\cite{ref__BDP_FOS_CDD}.
+	\item [5.5.4] Section in CDD for BDP FoS~\cite{ref__BDP_FOS_CDD}.
+	\item [5.5.21] Section in CDD for BDP FoS~\cite{ref__BDP_FOS_CDD}.
+}
+% #8 is Notes; listed as enumeration \item ...
+{
+	\item This processing is enabled when the Waveform Control Input selects the sub-mode, Shortwave (\SW) in this case.
+	\item The Waveform Control Input supplies the \RF carrier frequency and modulation bandwidth information needed to extract the reflected power from the \SW Received \RF Data input.
+	\item A digitally sampled signal that represents the reflected \RF signal is generated which is controlled by the carrier frequency and modulation bandwidth inputs.
+}
+% #9 is version of spec for changebars
+{P2}
+%%%%% end \ONERQMTV[9] macro
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%% \ONERQMTV[9] is macro for consistently formatted requirements
+\ONERQMTVKPP
+% #1 is requirement Number
+{\RqtNumberBase.2}
+% #2 is Title
+{BDP-Heavy \SW Waveform VSWR Output Processing}
+% #3 is requirement label (expected to be of form rqt:XXX)
+{rqt:Waveform_SW_Heavy_VSWR_Output}
+% #4 is Text of the specification
+{The BDP-Heavy system shall integrate the estimated forward-transmitted power and reflected-power measurements and then calculate the \VSWR value, generating fault notifications for erroneous conditions.}
+% #5 is Status (S in {(T), (O), (I), (D)} listed by phase as \item [] S)
+{
+	\item [Phase 1] Threshold
+}
+% #6 is Acceptance
+{This requirement shall be verified by demonstration.}
+% #7 is Traceability
+{
+	\item [5.1.1] Section in CDD for BDP FoS~\cite{ref__BDP_FOS_CDD}.
+	\item [5.1.2] Section in CDD for BDP FoS~\cite{ref__BDP_FOS_CDD}.
+	\item [5.5.1] Section in CDD for BDP FoS~\cite{ref__BDP_FOS_CDD}.
+	\item [5.5.3] Section in CDD for BDP FoS~\cite{ref__BDP_FOS_CDD}.
+	\item [5.5.4] Section in CDD for BDP FoS~\cite{ref__BDP_FOS_CDD}.
+	\item [5.5.21] Section in CDD for BDP FoS~\cite{ref__BDP_FOS_CDD}.
+}
+% #8 is Notes; listed as enumeration \item ...
+{
+	\item The integration time from the Waveform Control Inputs determines number of samples used in the calculations and the update rate.
+	\item Low reflected power or high \VSWR measurements will generate the fault notifications which will be used to disable the \RF Broadcast Output. A low reflected power measurement while transmitting would indicate that no \RF power is being transmitted.
+}
+% #9 is version of spec for changebars
+{P2}
+%%%%% end \ONERQMTV[9] macro

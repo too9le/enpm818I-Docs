@@ -1,0 +1,69 @@
+The \ThisSys \ThisSegment \FM capability is divided into the following specification groups:
+\begin{description}
+	\item[Receive processing] provides the \FM receive waveform processing capability.
+	%\item[Output processing] provides the \FM broadcast output waveform processing capability, \S~\ref{loc:Waveform_FM_Output}.
+	%\item[Input processing]  provides the \FM broadcast input waveform processing  capability, \S~\ref{loc:Waveform_FM_Input}.
+	\item[Transmission processing] provides the \FM broadcast transmission waveform processing capability. This processing supports both the \FM Radio Broadcast and \FM Radio Broadcast with \RDS/\RBDS sub-modes. The difference between the two sub-modes is managed by two distinct Transmission Input Processing functions because of the additional \RDS/\RBDS information. For the case of rebroadcasting a received \FM Rebroadcast, a third distinct Transmission Input Processing function is documented.
+	\item[\VSWR processing] provides the \FM broadcast \VSWR processing capability.
+\end{description}
+An overview of the processing performed by these groups is shown in Figure~\ref{fig:FM_Waveform_Processing}.
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[width=6.5in]{../zProjectWideData/images/Waveform_FM_300dpi_6500millWide.eps}
+	\caption[FM Waveform Processing Overview]{FM Waveform Processing Overview}
+	\label{fig:FM_Waveform_Processing}
+\end{figure}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\KNEADPARAGRAPHNEWPAGE
+%\paragraph{\FM Waveform Receive Processing}
+%\label{loc:Waveform_FM_Receive}
+%\RequirementNumberAM{paragraph}{3.3.2.1}
+%\renewcommand{\ThisSubSegment}{\FM Waveform Receive Processing\xspace}% used for documetation automation in specification groups
+\paragraph{BDP-Light \FM Waveform Processing}
+\label{loc:Waveform_FM_Light}
+\RequirementNumberAM{paragraph}{3.3.3.3.1}
+\renewcommand{\ThisSubSegment}{BDP-Light \FM Waveform Processing\xspace}% used for documetation automation in specification groups
+
+
+\input{sections/3.03.Capabilities/Waveform/FM/Light/Waveform_FM_Processing_Light.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\KNEADPARAGRAPHNEWPAGE
+\paragraph{BDP-Medium \FM Waveform Processing}
+\label{loc:Waveform_FM_Medium}
+\RequirementNumberAM{paragraph}{3.3.3.3.2}
+\renewcommand{\ThisSubSegment}{BDP-Medium \FM Waveform Processing\xspace}% used for documetation automation in specification groups
+
+\input{sections/3.03.Capabilities/Waveform/FM/Medium/Waveform_FM_Processing_Medium.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\KNEADPARAGRAPHNEWPAGE
+\paragraph{BDP-Heavy \FM Waveform Processing}
+\label{loc:Waveform_FM_Heavy}
+\RequirementNumberAM{paragraph}{3.3.3.3.3}
+\renewcommand{\ThisSubSegment}{BDP-Heavy \FM Waveform Processing\xspace}% used for documetation automation in specification groups
+
+\input{sections/3.03.Capabilities/Waveform/FM/Heavy/Waveform_FM_Processing_Heavy.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\KNEADPARAGRAPHNEWPAGE
+%\paragraph{\FM Waveform Transmission Processing}
+%\label{loc:Waveform_FM_Transmission}
+%\RequirementNumberAM{paragraph}{3.3.2.1}
+%\renewcommand{\ThisSubSegment}{\FM Waveform Transmission Processing\xspace}% used for documetation automation in specification groups
+%\input{sections/3.03.Capabilities/Waveform/FM/Waveform_FM_Processing_Output.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\KNEADPARAGRAPHNEWPAGE
+%\paragraph{\FM Waveform VSWR Processing}
+%\label{loc:Waveform_FM_VSWR}
+%\RequirementNumberAM{paragraph}{3.3.2.1}
+%\renewcommand{\ThisSubSegment}{\FM Waveform VSWR Processing\xspace}% used for documetation automation in specification groups
+%\input{sections/3.03.Capabilities/Waveform/FM/Waveform_FM_Processing_Input.tex}

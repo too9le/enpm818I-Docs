@@ -1,0 +1,71 @@
+%%% \ONERQMTV[9] is macro for consistently formatted requirements
+\ONERQMTVKPP
+% #1 is requirement Number
+{\RqtNumberBase.1}
+% #2 is Title
+{BDP-Heavy \DTV Waveform Transmission Input Processing}
+% #3 is requirement label (expected to be of form rqt:XXX)
+{rqt:Waveform_DTV_Heavy_Transmission_Input}
+% #4 is Text of the specification
+{The BDP-Heavy system shall receive the \MPEGTS data stream and output it as the Video Data Stream; all controlled by the parameters of the Waveform Control Inputs.}
+% #5 is Status (S in {(T), (O), (I), (D)} listed by phase as \item [] S)
+{
+	\item [Phase 1]  Threshold
+}
+% #6 is Acceptance
+{This requirement shall be verified by demonstration.}
+% #7 is Traceability
+{
+	\item [5.1.1] Section in CDD for BDP FoS~\cite{ref__BDP_FOS_CDD}.
+	\item [5.1.2] Section in CDD for BDP FoS~\cite{ref__BDP_FOS_CDD}.
+	\item [5.5.1] Section in CDD for BDP FoS~\cite{ref__BDP_FOS_CDD}.
+	\item [5.5.2] Section in CDD for BDP FoS~\cite{ref__BDP_FOS_CDD}.
+	\item [5.5.3] Section in CDD for BDP FoS~\cite{ref__BDP_FOS_CDD}.
+	\item [5.5.4] Section in CDD for BDP FoS~\cite{ref__BDP_FOS_CDD}.
+}
+% #8 is Notes; listed as enumeration \item ...
+{
+	\item This processing is enabled when the input selects the sub-mode, Digital Television (\DTV) in this case, with a supported DTV Video Standard.
+}
+% #9 is version of spec for changebars
+{P2}
+%%%%% end \ONERQMTV[9] macro
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%% \ONERQMTV[9] is macro for consistently formatted requirements
+\ONERQMTVKPP
+% #1 is requirement Number
+{\RqtNumberBase.2}
+% #2 is Title
+{BDP-Heavy \DTV Waveform Transmission Output Processing}
+% #3 is requirement label (expected to be of form rqt:XXX)
+{rqt:Waveform_DTV_Heavy_Transmission_Output}
+% #4 is Text of the specification
+{The BDP-Heavy system shall randomize, encode, and interleave the data from the Video Data Stream; group the bits into symbols and modulate on the \RF carrier using the appropriate method dictated by the \DTV Video Standard; then convert to an analog signal creating the \RF Broadcast Pre-Amp Data Output.}
+% #5 is Status (S in {(T), (O), (I), (D)} listed by phase as \item [] S)
+{
+	\item [Phase 1]  Threshold
+}
+% #6 is Acceptance
+{This requirement shall be verified by demonstration.}
+% #7 is Traceability
+{
+	\item [5.1.1] Section in CDD for BDP FoS~\cite{ref__BDP_FOS_CDD}.
+	\item [5.1.2] Section in CDD for BDP FoS~\cite{ref__BDP_FOS_CDD}.
+	\item [5.5.1] Section in CDD for BDP FoS~\cite{ref__BDP_FOS_CDD}.
+	\item [5.5.2] Section in CDD for BDP FoS~\cite{ref__BDP_FOS_CDD}.
+	\item [5.5.3] Section in CDD for BDP FoS~\cite{ref__BDP_FOS_CDD}.
+	\item [5.5.4] Section in CDD for BDP FoS~\cite{ref__BDP_FOS_CDD}.
+}
+% #8 is Notes; listed as enumeration \item ...
+{
+	\item The \RF Broadcast Pre-Amp Data Output signal will have an unmodulated carrier output power level of −20 \dBm.
+	\item The modulation method 8VSB or COFDM with PSK, QPSK, QAM, 16QAM, or 64QAM is controlled by the selected \DTV Video Standard.
+	\item The average modulated \RF output power level will be estimated for use internally during the \DTV Waveform \VSWR Processing.
+}
+% #9 is version of spec for changebars
+{P2}
+%%%%% end \ONERQMTV[9] macro
+
