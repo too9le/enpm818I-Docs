@@ -12,9 +12,8 @@ See the formal specifications, if applicable, in the following sections for form
 {\bf Name} & {\bf Summary}	& {\bf Valid Sub-States}\\
 			\hline
 			\hline
-Mode 1 & Mode 1 test & Sub-State A\\ \hline
-Mode 2 & Mode 2 summary & Sub-State B\\ \hline
-Mode 3 & Mode 3 summary & Sub-State C\\ 
+Default Mode & Default Mode & With Water \\ \hline
+Low-Water-Mode C & Low Water Mode & Without Water \\ 
 			\hline
 			\hline
 			\end{tabular}
@@ -32,7 +31,7 @@ Mode 3 & Mode 3 summary & Sub-State C\\
 % #1 is requirement Number
 {\RqtNumberBase.1}
 % #2 is Title
-{Mode One}
+{Default Mode}
 % #3 is requirement label (expected to be of form rqt:XXX)
 {rqt:ModeOne}
 % #4 is Text of the specification
@@ -49,7 +48,8 @@ Mode 3 & Mode 3 summary & Sub-State C\\
 }
 % #8 is Notes; listed as enumeration \item ...
 {
-	\item The Mode-1 mode generalizes the case where the system is \TBD.
+	\item The Default mode generalizes the case where the system is operational
+	\item The system should be able to take user input to control the system
 }
 % #9 is changebar version
 {P1}
@@ -61,11 +61,11 @@ Mode 3 & Mode 3 summary & Sub-State C\\
 % #1 is requirement Number
 {\RqtNumberBase.2}
 % #2 is Title
-{Mode Two}
+{Without Water Mode}
 % #3 is requirement label (expected to be of form rqt:XXX)
 {rqt:ModeTwo}
 % #4 is Text of the specification
-{The system shall provide the Mode-2 mode.}
+{The system shall provide the Without Water mode.}
 % #5 is Status (S in {(T), (O), (I), (D)} listed by phase as \item [] S)
 {
 	\item [Phase 1] Threshold
@@ -78,36 +78,8 @@ Mode 3 & Mode 3 summary & Sub-State C\\
 }
 % #8 is Notes; listed as enumeration \item ...
 {
-	\item The Mode-2 mode generalizes the case where the system is \TBD.
-}
-% #9 is changebar version
-{P1}
-%%%%% end \ONERQMTV[9] macro
-
-
-%%% \ONERQMTV[9] is macro for consistently formatted requirements
-\ONERQMTV
-% #1 is requirement Number
-{\RqtNumberBase.3}
-% #2 is Title
-{Mode Three}
-% #3 is requirement label (expected to be of form rqt:XXX)
-{rqt:ModeThree}
-% #4 is Text of the specification
-{The system shall provide the Mode-3 mode.}
-% #5 is Status (S in {(T), (O), (I), (D)} listed by phase as \item [] S)
-{
-	\item [Phase 1] Threshold
-}
-% #6 is Acceptance
-{This requirement shall be verified by demonstration.}
-% #7 is Traceability
-{
-	\item [N/A] This requirement is a base requirement.
-}
-% #8 is Notes; listed as enumeration \item ...
-{
-	\item The Mode-3 mode generalizes the case where the system is \TBD.
+	\item The Without Water mode generalizes the case where the system is out of water
+	\item The system should not take user input and prompt them to fill the system
 }
 % #9 is changebar version
 {P1}

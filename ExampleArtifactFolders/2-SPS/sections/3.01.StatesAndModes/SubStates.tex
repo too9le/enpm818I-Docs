@@ -11,9 +11,8 @@ See the formal specifications, if applicable, in the following sections for form
 				{\bf Sub-State Name} & {\bf Summary} & {\bf Valid States} \\ 
 			\hline
 			\hline
-Sub State A & summary & State 1 \\ \hline
-Sub State B & summary & State 2 \\ \hline
-Sub State C & summary & State 3 \\ 
+Sub State With Water & System Has Water & Idle State \\ \hline
+Sub State Without Water & System Has No Water & Idle State \\ 
 			\hline
 			\hline
 		\end{tabular}
@@ -31,11 +30,11 @@ Sub State C & summary & State 3 \\
 % #1 is requirement Number
 {\RqtNumberBase.1}
 % #2 is Title
-{SubState A}
+{SubState With Water}
 % #3 is requirement label (expected to be of form rqt:XXX)
 {rqt:SubStateA}
 % #4 is Text of the specification
-{The system shall provide the SubState-A substate.}
+{The system shall provide the SubState With Water substate.}
 % #5 is Status (S in {(T), (O), (I), (D)} listed by phase as \item [] S)
 {
 	\item [Phase 1] Threshold
@@ -48,7 +47,7 @@ Sub State C & summary & State 3 \\
 }
 % #8 is Notes; listed as enumeration \item ...
 {
-	\item The SubState-A substate generalizes the case where the system is \TBD.
+	\item The With Water substate generalizes the case where the system is in idle and has enough water to operate.
 }
 % #9 is changebar version
 {P1}
@@ -59,11 +58,11 @@ Sub State C & summary & State 3 \\
 % #1 is requirement Number
 {\RqtNumberBase.2}
 % #2 is Title
-{SubState B}
+{SubState Without Water}
 % #3 is requirement label (expected to be of form rqt:XXX)
 {rqt:SubStateB}
 % #4 is Text of the specification
-{The system shall provide the SubState-B substate.}
+{The system shall provide the SubState without Water substate.}
 % #5 is Status (S in {(T), (O), (I), (D)} listed by phase as \item [] S)
 {
 	\item [Phase 1] Threshold
@@ -76,37 +75,9 @@ Sub State C & summary & State 3 \\
 }
 % #8 is Notes; listed as enumeration \item ...
 {
-	\item The SubState-B substate generalizes the case where the system is \TBD.
+	\item The Without Water substate generalizes the case where the system does not have enough water to operate.
 }
 % #9 is changebar version
 {P1}
 %%%%% end \ONERQMTV[9] macro
 
-
-%%% \ONERQMTV[9] is macro for consistently formatted requirements
-\ONERQMTV
-% #1 is requirement Number
-{\RqtNumberBase.3}
-% #2 is Title
-{SubState C}
-% #3 is requirement label (expected to be of form rqt:XXX)
-{rqt:SubStateC}
-% #4 is Text of the specification
-{The system shall provide the SubState-C substate.}
-% #5 is Status (S in {(T), (O), (I), (D)} listed by phase as \item [] S)
-{
-	\item [Phase 1] Threshold
-}
-% #6 is Acceptance
-{This requirement shall be verified by demonstration.}
-% #7 is Traceability
-{
-	\item [N/A] This requirement is a base requirement.
-}
-% #8 is Notes; listed as enumeration \item ...
-{
-	\item The SubState-C substate generalizes the case where the system is \TBD.
-}
-% #9 is changebar version
-{P1}
-%%%%% end \ONERQMTV[9] macro

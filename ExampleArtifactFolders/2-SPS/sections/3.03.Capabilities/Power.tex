@@ -9,7 +9,7 @@ The power requirements for \ThisSystem are listed below.
 % #3 is requirement label (expected to be of form rqt:XXX)
 {rqt:PowerVoltage}
 % #4 is Text of the specification
-{All \ThisSys variants shall be capable of \TBD power voltage(s).}
+{All \ThisSys variants shall be capable of 5V power voltage(s).}
 % #5 is Status (S in {(T), (O), (I), (D)} listed by phase as \item [] S)
 {
 	\item [Phase 1] Threshold
@@ -22,7 +22,10 @@ The power requirements for \ThisSystem are listed below.
 }
 % #8 is Notes; listed as enumeration \item ...
 {
-  \item Add as many of these as necessary.  Split into files/folders as needed. Just use the RequirementNumberAM and RqtNumberBase commands to keep numbers correct if subsubsections are added.
+  \item 5V Input
+  \item 5V Output over GPIO
+  \item Control over Solid State Relays capable of 120V
+
 }
 % #9 is changebar version
 {P1}
@@ -37,7 +40,7 @@ The power requirements for \ThisSystem are listed below.
 % #3 is requirement label (expected to be of form rqt:XXX)
 {rqt:PowerCurrent}
 % #4 is Text of the specification
-{All \ThisSys variants shall be capable of \TBD power current.}
+{All \ThisSys variants shall be capable of 15 amp AC power current.}
 % #5 is Status (S in {(T), (O), (I), (D)} listed by phase as \item [] S)
 {
 	\item [Phase 1] Threshold
@@ -50,7 +53,7 @@ The power requirements for \ThisSystem are listed below.
 }
 % #8 is Notes; listed as enumeration \item ...
 {
-  \item Add as many of these as necessary.  Split into files/folders as needed. Just use the RequirementNumberAM and RqtNumberBase commands to keep numbers correct if subsubsections are added.
+	\item Control over Solid State Relays capable of 15Amp
 }
 % #9 is changebar version
 {P1}
